@@ -3,24 +3,32 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YourUsername/my-portfolio.git"
+    "url": "git+https://github.com/nannaleigh/FaeCoder.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/YourUsername/my-portfolio/issues"
+    "url": "https://github.com/nannaleigh/FaeCoder/issues"
   },
-  "homepage": "https://github.com/YourUsername/my-portfolio#readme",
+  "homepage": "https://nannaleigh.github.io/FaeCoder/",
   "keywords": [],
   "description": "",
   "devDependencies": {
+    "@vitejs/plugin-react": "^4.6.0",
     "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.4",
-    "tailwindcss": "^4.1.8"
+    "tailwindcss": "^4.1.8",
+    "vite": "^5.0.0"
   },
   "dependencies": {
     "framer-motion": "^12.16.0"
