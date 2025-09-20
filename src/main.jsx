@@ -28,7 +28,7 @@ export default function FaeCoderLanding() {
 
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 w-full max-w-4xl z-10">
         <a href="#portfolio" className="bg-purple-700 hover:bg-purple-600 rounded-2xl p-6 shadow-xl text-center transition duration-300">
-          💼 Portfolio
+          💼 Demo
         </a>
         <a href="#blog" className="bg-teal-700 hover:bg-teal-600 rounded-2xl p-6 shadow-xl text-center transition duration-300">
           📖 Blog
